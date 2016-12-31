@@ -14,7 +14,8 @@ It utilizes the following concepts:
 
 ###In order to run this project you need to have below tools and meet these requirements:
 
-A) Tools:
+A) Tools
+
 1. Junit
 2. Cucumber-JVM
 3. Selenium Web Driver
@@ -23,22 +24,26 @@ A) Tools:
 
 
 B) Dependencies (versions in POM file):
+
 1. selenium-java 3.0.1
 2. Junit 4.12
 3. cucumber junit 1.2.2 
 4. cucumber java 1.2.2
 
-C) Plugins:
-1. Cucumber feature file editor (optional for eclipse)
-2. Eclipse plugin for Cucumber(for eclipse)
-3. Maven (for eclipse)
+C) Eclipse Plugins:
 
-D) Browser:
-Chrome 55.0.2883.87 
-chromedriver_win32
+1. Cucumber feature file editor 
+2. Eclipse plugin for Cucumber
+3. Maven
+
+D) Browser and plugin:
+
+1. Chrome 55.0.2883.87 
+2. Chrome Driver server - chromedriver_win32
 
 E) Operating System:
-Windows 7 Professional service pack 1, 64- bit
+
++  Windows 7 Professional service pack 1, 64- bit
 
 
 ###Project:
