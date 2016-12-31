@@ -1,4 +1,4 @@
-### Cucumber BDD Automation Framework for Comparethemarket.com
+## Cucumber BDD Automation Framework for Comparethemarket.com
 
 ============================================================================================================================
 
@@ -116,12 +116,12 @@ C:\Users\mosherif\workspace\com.compareTM\target\json or access it from target f
 
 ###Issues found:
 There are 2 intermittent issues found during the test.
-1.1) Follow the steps provided in scenarios happy path or combination path. It does not affect the 2nd scenario since this bug
-is related to results page.
 
+1.1 ) Follow the steps provided in scenarios happy path or combination path. It does not affect the 2nd scenario since this bug
+is related to results page.
 Repeat same flow multiple times atleast thrice and notice the final result page. Sometimes the header shows "Current Tariff and usage" and sometimes it shows "Your estimated  usage". Which one is correct? The behavior should be consistent when the actions performed on SUT are consistent. None of the steps have changed since the script uses same options but it is unable to identify element due to this conflict.
 
-1.2) There is one more issue related to this one, There is difficulty in finding correct xpaths/selectors for headers in the 'Your results' page. I tried with all below in my script but only 2 seem to be working which are uncommented. The rest of them do not work due to the defect as described in 1.1, web driver fails to identity the object when other "current tariff and usage" text is shown.
+1.2 ) There is one more issue related to this one, There is difficulty in finding correct xpaths/selectors for headers in the 'Your results' page. I tried with all below in my script but only 2 seem to be working which are uncommented. The rest of them do not work due to the defect as described in 1.1, web driver fails to identity the object when other "current tariff and usage" text is shown.
 
   - for  "Your estimated usage"- 
    driver.findElement(By.className("mm_t61_summary_line"));
